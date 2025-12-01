@@ -11,5 +11,4 @@ public class PlayResult
     public bool IsPass { get; set; }
     public PassFailReason PassFailReason { get; set; }
     public int YardsGained { get; set; }
-
 }
