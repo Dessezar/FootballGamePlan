@@ -13,8 +13,4 @@ public class AppDbContext : DbContext
     public DbSet<GamePlan> GamePlans => Set<GamePlan>();
     public DbSet<Play> Plays => Set<Play>();
     public DbSet<PlayResult> PlayResults => Set<PlayResult>();
-
-    
-    
-
 }
